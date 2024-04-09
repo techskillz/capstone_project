@@ -1,12 +1,29 @@
+
+/* <!-- rubik font --> */
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Bubbles&display=swap');
+
+    /* <!-- rubik fonts --> */
+    :root{
+        --rubik:"rubik"; 
+     }
+
+
+
 @font-face {
     font-family: “gilroy”;
     src: url("path/to/font-file.ttf");
   }
 
+  *{
+    padding: 0;
+    margin: 0;
+  }
 
   body {
     font-family: “gilroy”, sans-serif;
 overflow-x: hidden;
+padding: 0;
+margin: 0;
   }
 
 /* navigation section */
@@ -93,6 +110,7 @@ line-height: 65px;
 margin-top: 1rem;
 margin-left: 7rem;
 background-color: #473BF0;
+border-radius: 999px;
 
 }
 
@@ -111,20 +129,239 @@ background-color: #473BF0;
 
 }
 
+/* content 01 section */
+
+.col-4{
+    background-color: #3782cdd2;
+margin-top: 2rem;
+}
+
+.col-4 img{
+
+    width: 500px;
+    height: 700px;
+}
+
+.wss{
+    display: flex;
+}
+.wss{
+    background-color: #F4F7FA;
+
+}
+
+.wdf{
+
+margin-left: 15rem;
+margin-top: 10rem;
+color: #161C2D;
+background-color: #F4F7FA;
+
+}
+
+.wdf h2{
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: inherit;
+    color: #161C2D;
+    width: 290px;
+    height: 90px;
+}
+
+.wdf p{
+font-weight: 400;
+font-size: 15px;
+line-height: 32px;
+color: #161C2D;
+opacity: 50%;
+width: 300px;
+height: 64px;
+
+}
+
+.dff{
+    position: relative;
+}
+
+.dff img:last-of-type{
+    width: 30px;
+    position: absolute;
+    left: 55%;
+    top: 15%;
+}
+
+.waa{
+    display: flex;
+    margin-top: 4rem;
+}
+.tyy{
+    margin-left: 1rem;
+
+}
+.tyy h5{
+font-size: 19px;
+color: #161C2D;
+font-weight: 700;
+/* line-height: 20px; */
+}
+.tyy p{
+    font-size: 13px;
+    font-weight: 400;
+    width: 170px;
+    height: 67px;
+    line-height: none;
+}
+
+.yuu{
+    position: relative;
+}
+
+.yuu img:last-of-type{
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+
+.olo{
+    display: flex;
+}
+
+.ole{
+    margin-left: 1rem;
+}
+.ole h5{
+    font-size: 19px;
+    color: #161C2D;
+    font-weight: 700;
+
+}
+.ole p{
+    font-size: 13px;
+    font-weight: 400;
+    width: 170px;
+    height: 67px;
+    line-height: none;
+}
+/* content 02 */
+
+.col-12wf{
+    background-color: #473BF0;
+    display: flex;
+    gap: 5rem;
+}
+
+.hgk img{
+    height: 100vh;
+    width: 90%;
+    margin-left: 7rem;
+}
+
+.mmn{
+    margin-top: 10rem;
+    
+    color: white;
+    margin-left: 9rem;
+}
+
+.mmn h3{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+}
+
+.mmn p{
+    font-size: 13px;
+    font-weight: 400;
+    width: 250px;
+    height: 67px;
+    line-height: none;
+    text-align: start;
+    margin-left: 3rem;
+    opacity: 80%;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+
+.card img{
+    width: fit-content;
+    margin-top: 1.5rem;
+}
+
+.card-body{
+    position: absolute;
+    color: white;
+    font-family: var(--rubik);
+
+    
+}
+
+.card-body p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.card-body small{
+    font-size: 12px;
+    font-weight: 700;
+}
 
 
+/* content 03 */
 
 
+.col-12bb{
 
+    background-color: #161C2D;
+    background-position: cover;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.wrt h3{
+    margin-top: 4rem;
+font-size: 48px;
+line-height: 58px;
+font-weight: 700;
+width: 475px;
+height: 116px;
+margin-left: 25rem;
+}
 
+.wrt p{
+    margin-top: 2rem;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 404px;
+    height: 64px;
+    opacity: 50%;
+    margin-left: 25rem;
+}
 
+.hhh{
+    margin-top: 3rem;
+}
 
+.hhh img:first-of-type{
+    width: 100%;
+}
 
+.hhh img:nth-child(2){
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+}
 
-
-
-
-
-
-
-/* navigation section */
+.hhh img:last-of-type{
+    position: absolute;
+    right: 35%;
+    bottom: 5%;
+}
