@@ -365,3 +365,166 @@ margin-left: 25rem;
     right: 35%;
     bottom: 5%;
 }
+
+
+/* pricing section*/
+
+
+.tyr {
+    text-align: center;
+    margin-top: 3rem;
+    color: #161C2D;
+}
+
+.tyr h2{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 58px;
+}
+
+.tyr p{
+    font-weight: 500;
+    font-style: 15px;
+    line-height: 22px;
+    opacity: 80%;
+    width: 380px;
+    height: 64px;
+    margin-left: 27rem;
+}
+
+.cool{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 12rem;
+    flex-direction: column(3, 1fr);
+    gap: 5rem;
+}
+
+.calm h5{
+    font-weight: 750;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.calm img{
+    margin-left: 20%;
+}
+.calm p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    opacity: 80%;
+    width: 210px;
+    margin-left: 1.5rem;
+}
+.btn-sus{
+    border-radius: 999px;
+    background-color: #473BF0;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+    color: white;
+    width: 130px;
+    height: 40px;
+}
+
+.clop h5{
+    font-weight: 750;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.clop img{
+    margin-left: 17%;
+}
+.clop p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    opacity: 80%;
+    width: 210px;
+    margin-left: 1.5rem;
+}
+.btn-dng{
+    border-radius: 999px;
+    background-color: #473BF0;
+    margin-left: 3.2rem;
+    color: white;
+    margin-top: 2rem;
+    width: 130px;
+    height: 40px;
+}
+
+.clip h5{
+    font-weight: 750;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.clip img{
+    margin-left: 17%;
+}
+.clip p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    opacity: 80%;
+    width: 210px;
+    margin-left: 1.5rem;
+}
+.btn-jk{
+    border-radius: 999px;
+    background-color: #473BF0;
+    margin-left: 3.2rem;
+    margin-top: 2rem;
+    color: white;
+    width: 130px;
+    height: 40px;
+    
+}
+.btn-jk:hover{
+    color: none !important;
+    
+}
+
+/* cta section */
+
+.col-12rtu  {
+
+margin-top: 5rem;
+}
+
+
+/* footer section */
+
+.ftt{
+    display: flex;
+    flex-direction: end;
+}
+
+.ftt span{
+    font-size: 24px;
+    font-family: var(--rubik);
+    font-weight: 700;
+    color: #161C2D;
+    margin-left: 6rem;
+}
+.ftt ul{
+
+    list-style: none;
+    display: flex;
+    gap:2rem;
+    margin-left: 35rem;
+    
+    
+}
+.ftt ul a{
+    text-decoration: none;
+    list-style: none;
+    color: #161C2D;
+    font-weight: 700;
+    font-size: 10px;
+}
+
