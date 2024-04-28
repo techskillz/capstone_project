@@ -71,6 +71,7 @@ margin-top: 6rem;
     height: 301px;
 motion-rotation: -0deg;
 }
+/* content section */
 
 .col-12kk{
 margin-left: 25rem;
@@ -526,5 +527,209 @@ margin-top: 5rem;
     color: #161C2D;
     font-weight: 700;
     font-size: 10px;
+}
+
+/* responsive styling */
+@media (max-width: 980px) {
+
+    .btn-primary{
+       margin-left: 7rem;
+       margin-top: 1.5rem;
+    }
+    .navbar-brand{
+        margin-left: 2rem;
+    }
+    .wer img{
+        width: 200px;
+        height: 201px;
+    
+    }
+    .col-12kk{
+        margin-left: 2rem;
+        margin-top: 1rem;
+        
+        }
+        .col-12kk h1{
+            font-size: 40px;
+            line-height: 50px;
+            text-align: center; 
+            }
+            .col-12kk p{
+                width: 300px;
+            }
+            .btn-secondary{
+                margin-top: 0.5rem;
+                margin-left: 5.5rem;
+                
+                }
+                .col-12kk h6{
+                    margin-left: 8rem;
+                    margin-top: 0.5rem;
+                }
+
+                .col-4{
+                    background-color: #3782cdd2;
+                margin-top: 0rem;
+                }
+                .col-4 img{
+
+                    width: 200px;
+                    height: 250px;
+                }
+                .wdf{
+
+                    margin-left: 6rem;
+                    margin-top: 1rem;
+                    
+                    }
+                    .wdf h2{
+                        font-weight: 700;
+                        line-height: 30px;
+                        font-size: 30px;
+                        color: #161C2D;
+                        width: 170px;
+                        height: 140px;
+                    }
+                    
+                    .wdf p{
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #161C2D;
+                    opacity: 50%;
+                    width: 150px;
+                    height: 64px;
+                    }
+                    .waa{
+                        display: none;
+                    }
+                    .col-12wf{
+                        display: block;
+                        gap: 2rem;
+                    }
+                    .mmn{
+                        margin-top: 2rem;
+                        margin-left: 1rem;
+                    }
+                    .hgk img{
+                        height: 30vh;
+                        width: 50%;
+                        margin-left: 5rem;
+                        margin-top: 2rem;
+                    }
+                    .mmn p{
+                        height: 40px;
+                    }
+                    .card-body small{
+                        margin-top: 3rem;
+                    }
+                    .wrt h3{
+                    margin-top: 0rem;
+                    font-size: 38px;
+                    line-height: 38px;
+                    width: 305px;
+                    height: 100px;
+                    margin-left: 1rem;
+                    }
+                    
+                    .hhh{
+                        margin-top: 5rem;
+                    }
+                    
+                    
+                    
+                    .hhh img:nth-child(2){
+                        position: absolute;
+                        bottom: 1%;
+                        right: 50%;
+                    }
+                    
+                    .hhh img:last-of-type{
+                        position: absolute;
+                        right: 1%;
+                        bottom: 1%;
+                    }
+.tyr {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.tyr p{
+    width: 300px;
+    margin-left: 2rem;
+}
+.cool{
+    display: block;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.calm p{
+    width: 210px;
+    margin-left: 4rem;
+}
+.btn-sus{
+    margin-left: 6rem;
+    margin-top: 0rem;
+}
+.clop img{
+    margin-top: 2rem;
+}
+.clop p{
+    width: 210px;
+    margin-left: 4rem;
+}
+.btn-dng{
+    margin-left: 6rem;
+    margin-top: 0rem;
+}
+
+.clip img{
+    margin-top: 2rem;
+}
+.clip p{
+    width: 210px;
+    margin-left: 4rem;
+}
+.btn-jk{
+    margin-left: 6rem;
+    margin-top: 0rem;
+    
+}
+.col-12rtu  {
+
+    display: none;
+    }
+    .ftt{
+        display: block;
+        flex-direction: start;
+        margin-top: 2rem;
+    }
+    .ftt ul{
+
+        list-style: none;
+        display: block;
+        margin-left: 3rem; 
+        
+    }
+}
+@media (min-width: 968px) and (max-width: 1024px) {
+    
+    .col-12kk{
+        margin-left: 25rem;
+        margin-top: 3rem;
+        text-align: center;
+        }
+
+        .col-12kk span{
+            margin-top: 100rem;
+        }
+        
+        .col-12kk h1{
+        font-weight: 700;
+        color: #161C2D;
+        font-size: 30px;
+        line-height: 65px;
+        
+        }
 }
 
