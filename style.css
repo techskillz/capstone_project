@@ -712,7 +712,12 @@ margin-top: 5rem;
         
     }
 }
-@media (max-width: 1100px) {
+@media (max-width: 1024px) {
+    .wer {
+      width: 100%;
+    }
+
+    
     .col-12kk{
         margin-left: 12rem;
         margin-top: 3rem;  
